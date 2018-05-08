@@ -51,10 +51,11 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'djangoServer.urls'
 
+# The current template files will link to the the views folder in AUT ar web app
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['autarWebApp/Views'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
