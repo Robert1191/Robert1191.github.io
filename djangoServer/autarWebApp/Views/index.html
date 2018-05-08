@@ -1,16 +1,4 @@
-<!--<!DOCTYPE html>-->
-
-<!--<html>-->
-<!--<head>-->
-    <!--<link rel="stylesheet" type="text/css" href="/static/assets/css/sample.css" />-->
-<!--</head>-->
-<!--<body>-->
-
-<!--<h1>This is heading 1</h1>-->
-<!--<p>This is an ordinary paragraph. Notice that this text is blue. The default text color for a page is defined in the body selector.</p>-->
-
-<!--</body>-->
-<!--</html>-->
+{% load static from staticfiles%}
 
 <!DOCTYPE HTML>
 <!--
@@ -23,10 +11,10 @@
 		<title>AVR Studio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="/static/assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="/static/assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="/static/assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="/static/assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="{% static 'assets/js/ie/html5shiv.js'%}"></script><![endif]-->
+		<link rel="stylesheet" href="{% static 'assets/css/main.css'%}" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="{% static 'assets/css/ie9.css'%}" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="{% static 'assets/css/ie8.css'%}" /><![endif]-->
 	</head>
 	<body>
 
@@ -62,7 +50,7 @@
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
-							<a href="#" class="image"><img src="/static/images/Minh.jpg" alt="" data-position="center center" /></a>
+							<a href="#" class="image"><img src="{% static 'images/Minh.jpg'%}" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Dr Minh Nguyen</h2>
@@ -75,7 +63,7 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="/static/images/Robert.jpg" alt="" data-position="top center" /></a>
+							<a href="#" class="image"><img src="{% static 'images/Robert.jpg'%}" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Robert Huy Le</h2>
@@ -199,13 +187,13 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="/static/assets/js/jquery.min.js"></script>
-			<script src="/static/assets/js/jquery.scrollex.min.js"></script>
-			<script src="/static/assets/js/jquery.scrolly.min.js"></script>
-			<script src="/static/assets/js/skel.min.js"></script>
-			<script src="/static/assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="/static/assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="/static/assets/js/main.js"></script>
+			<script src="{% static 'assets/js/jquery.min.js'%}"></script>
+			<script src="{% static 'assets/js/jquery.scrollex.min.js'%}"></script>
+			<script src="{% static 'assets/js/jquery.scrolly.min.js'%}"></script>
+			<script src="{% static 'assets/js/skel.min.js'%}"></script>
+			<script src="{% static 'assets/js/util.js'%}"></script>
+			<!--[if lte IE 8]><script src="{% static 'assets/js/ie/respond.min.js'%}"></script><![endif]-->
+			<script src="{% static 'assets/js/main.js'%}"></script>
 
 	</body>
 </html>
