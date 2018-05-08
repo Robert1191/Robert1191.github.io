@@ -23,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangoServer/autarWebApp/Views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="195" column="50" lean-forward="false" selection-start-line="195" selection-start-column="50" selection-end-line="195" selection-end-column="50" />
+            <state relative-caret-position="354">
+              <caret line="189" column="18" lean-forward="true" selection-start-line="189" selection-start-column="18" selection-end-line="189" selection-end-column="18" />
               <folding>
                 <element signature="e#7824#7830#0" expanded="true" />
               </folding>
@@ -47,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/djangoServer/djangoServer/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="708">
@@ -91,8 +91,8 @@
         <option value="$PROJECT_DIR$/djangoServer/djangoServer/urls.py" />
         <option value="$PROJECT_DIR$/djangoServer/autarWebApp/static/assets/css/sample.css" />
         <option value="$PROJECT_DIR$/djangoServer/autarWebApp/urls.py" />
-        <option value="$PROJECT_DIR$/djangoServer/djangoServer/settings.py" />
         <option value="$PROJECT_DIR$/djangoServer/autarWebApp/Views/index.html" />
+        <option value="$PROJECT_DIR$/djangoServer/djangoServer/settings.py" />
       </list>
     </option>
   </component>
@@ -406,11 +406,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoServer/djangoServer/settings.py">
+    <entry file="file://$PROJECT_DIR$/djangoServer/autarWebApp/Views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="123" column="45" lean-forward="false" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="354">
+          <caret line="189" column="18" lean-forward="true" selection-start-line="189" selection-start-column="18" selection-end-line="189" selection-end-column="18" />
+          <folding>
+            <element signature="e#7824#7830#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -424,13 +426,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoServer/autarWebApp/Views/index.html">
+    <entry file="file://$PROJECT_DIR$/djangoServer/djangoServer/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="195" column="50" lean-forward="false" selection-start-line="195" selection-start-column="50" selection-end-line="195" selection-end-column="50" />
-          <folding>
-            <element signature="e#7824#7830#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="708">
+          <caret line="123" column="45" lean-forward="false" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
