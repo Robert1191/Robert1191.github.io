@@ -11,4 +11,6 @@ from django.contrib import admin
 # Now the home page will direct to the index file in AUT AR web app
 urlpatterns = [
     url('', include('autarWebApp.urls')),
+    url('assets/', include('autarWebApp.urls')),
+    url('images/', include('autarWebApp.urls')),
 ]
