@@ -120,6 +120,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR,'autarWebApp/medias'),
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR,'autarWebApp/medias'),
+#     )
+
+STATICFILES_DIRS = ('https://robert1191.github.io/djangoServer/autarWebApp/medias/',
     )
+
+# https://robert1191.github.io/djangoServer/autarWebApp/medias/
