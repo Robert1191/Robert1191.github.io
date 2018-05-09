@@ -23,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangoServer/autarWebApp/Views/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -35,23 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/djangoServer/djangoServer/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="121" selection-start-line="121" selection-end-line="121" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/djangoServer/djangoServer/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="224">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -95,8 +83,8 @@
         <option value="$PROJECT_DIR$/djangoServer/autarWebApp/static/assets/css/sample.css" />
         <option value="$PROJECT_DIR$/djangoServer/autarWebApp/urls.py" />
         <option value="$PROJECT_DIR$/djangoServer/djangoServer/urls.py" />
-        <option value="$PROJECT_DIR$/djangoServer/djangoServer/settings.py" />
         <option value="$PROJECT_DIR$/djangoServer/autarWebApp/Views/index.html" />
+        <option value="$PROJECT_DIR$/djangoServer/djangoServer/settings.py" />
       </list>
     </option>
   </component>
@@ -440,10 +428,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoServer/djangoServer/settings.py">
+    <entry file="file://$PROJECT_DIR$/djangoServer/autarWebApp/Views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="121" selection-start-line="121" selection-end-line="121" selection-end-column="6" />
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <element signature="e#7474#7480#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -457,13 +448,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoServer/autarWebApp/Views/index.html">
+    <entry file="file://$PROJECT_DIR$/djangoServer/djangoServer/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding>
-            <element signature="e#7474#7480#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="224">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
